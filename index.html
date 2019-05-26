@@ -2,7 +2,14 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
 	</head>
-	<body>
-		<h1><marquee>Hello world</marquee></h1>
-	</body>
+   
+   <frameset cols = "25%,50%,25%">
+      <frame name = "left" src = "top_frame.html" />
+      <frame name = "center" src = "main_frame.html" />
+      <frame name = "right" src = "bottom_frame.html" />
+      
+      <noframes>
+         <body>Your browser does not support frames.</body>
+      </noframes>
+   </frameset>
 </html>
