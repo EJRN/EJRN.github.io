@@ -2,14 +2,20 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
 	</head>
+
+
+	
+	<frameset rows = "32%,*,5%">
+		<frame name = "header" NORESIZE scrolling="no" marginWidth="1" resize=NO src = "header_frame.html" />
+		
+		<frame name = "main" NORESIZE scrolling="yes" marginWidth="1" resize=NO src = "./content/intro.html" />
+		<frame name = "footer" NORESIZE scrolling="no" marginWidth="1" resize=NO src = "footer_frame.html" />
+
+		<noframes>
+		<body>Your browser does not support frames.</body>
+		</noframes>
+
+	</frameset>
+
    
-   <frameset rows = "22%,*,10%">
-      <frame name = "header" NORESIZE scrolling="no" marginWidth="1" resize=NO src = "header_frame.html" />
-      <frame name = "main" NORESIZE scrolling="no" marginWidth="1" resize=NO src = "main_frame.html" />
-      <frame name = "footer" NORESIZE scrolling="no" marginWidth="1" resize=NO src = "footer_frame.html" />
-      
-      <noframes>
-         <body>Your browser does not support frames.</body>
-      </noframes>
-   </frameset>
 </html>
