@@ -119,11 +119,15 @@ background-size: 50px, 100% 100%;
 }
 
 p {
-color:red;
+color:black;
 }
 
 h1 {
 color:#00005A;
+}
+
+h2 {
+color:#004600;
 }
 
 .page-header p{
@@ -133,6 +137,10 @@ font-size:6em;
 vertical-align:middle;
 margin-bottom:0.1em;
 height:100px;
+}
+
+p.footer {
+color: red;
 }
 
 .centered{
