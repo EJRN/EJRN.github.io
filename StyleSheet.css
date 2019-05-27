@@ -1,7 +1,27 @@
+body{
+	background-color:black
+}
+
+#mainbody{
+background-image: linear-gradient(SkyBlue 75%, LawnGreen 80%);	
+}
+
 p {
 color:red;
 }
 
 h1 {
 color:green;
+}
+
+.page-header{
+color:gold;
+font-family:"Times New Roman", Times, serif;
+font-size:6em;
+vertical-align:middle;
+margin-bottom:0.1em;
+}
+
+.centered{
+text-align:center;
 }
